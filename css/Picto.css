@@ -1,0 +1,724 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin: 0;
+}
+/* .......................Heddeer................................... */
+.contener{
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 30px;
+}
+header{
+
+    margin-top: 25px;
+    margin-bottom: 28px;
+    background-color:rgba(255, 255, 255, 1);
+}
+.logo a{
+    
+    text-decoration: none;
+    color: #000;
+    
+}
+.logo h2 ,h1{ 
+    display: inline-block;
+    padding: 8px 12px;
+}
+
+.logo h1{
+background-color: rgba(165, 61, 255, 1);
+width: 56px;
+height: 56px;
+border-radius: 1000px;
+padding: 15px 20px;
+font-size: 24px;
+color: rgba(255, 255, 255, 1);
+}
+.logo h2{
+
+    font-size: 32px;
+    font-weight: 500;
+}
+.contener nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contener nav .menu ul{
+
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.contener nav .menu ul li{
+
+    padding: 12px 24px;
+}
+.contener nav .menu ul li a{
+    text-decoration: none;
+    color: rgba(51, 51, 51, 1);
+    font-size: medium;
+    font-weight: 500;
+    
+}
+.contener nav .menu ul .contact{
+
+    background-color: rgba(165, 61, 255, 1);
+    padding: 12px 24px;
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+/* ------------------------------------------------------------ */
+main{
+    background-color: rgba(255, 255, 255, 1);
+}
+section{
+    display: flex;
+    justify-content: space-around;
+}
+section .text{
+
+    width: 648px;
+    height: 336px;
+    margin: 90px 0px;
+}
+section .text h1{
+    margin: 0;
+    padding: 0;
+    font-size: 72px;
+    font-weight: 500;
+}
+
+section .text span{
+    display: block;
+    margin: 0;
+}
+section .text p{
+
+    margin: 24px 0;
+    padding: 0;
+    height: 72px;
+    font-size: 18px;
+}
+section .text a{
+
+    background-color:rgba(165, 61, 255, 1);
+    text-decoration: none;
+    color:rgba(255, 255, 255, 1); 
+    font-size: 16px;
+    padding: 12px 24px;
+    border-radius: 4px;
+}
+section .img {
+    margin: -20px 0;
+    width:536px;
+    height: 636px;
+
+}
+
+section .img  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 3px 3px 10px rgba(255, 255, 255, 1);
+}
+/* ---------------------------------- */
+
+.divB{    
+
+    background-color: rgba(12, 68, 54, 0.014);
+    box-shadow: 0px 36px 105px rgba(43, 56, 76, 0.216);
+    border-radius: 10px;
+    margin:100px auto;
+    height: 728px;
+    
+}
+.section2{
+    display: flex;
+    justify-content: space-around;
+}
+.section2 .logo2{
+
+    max-width: 424px;
+    height: 468px;
+    margin-top: 112px;
+    margin-right: 136px;
+    margin-left: 112px;
+    border-radius: 10px;
+
+} 
+.cv{
+    /* background-color: aqua; */
+    max-width: 536ch;
+    height: 348px;
+    margin-top: 190px;
+    margin-right: 112px;
+    
+}
+
+.cv.p{
+    padding: 6px 0;
+    font-size: 18px;
+}
+.cv a{
+    text-decoration: none;
+    margin: 0 16px;
+    display: inline-block;
+
+}
+.cv .Project{
+    padding: 12px 24px;
+    background-color: rgba(165, 61, 255, 1);
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+
+}
+.cv .down{
+    margin: 0;
+    padding: 12px 24px;
+    border: 1px solid rgba(165, 61, 255, 1);
+    border-radius: 4px;
+    color: rgba(165, 61, 255, 1);
+}
+.cv .down i{
+   
+    padding: 0 5px;
+    margin-left: -8px;
+}
+/* ----------------------------------- */
+
+.section3{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+.section3 .Work_Process{
+
+    width: 529px;
+    height: 240px;
+    margin-top: 180px;
+    padding-right: 10px;
+
+}
+.grid_items{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    margin-right: -50px;
+
+}
+.grid_items .Work_Process_card1,.Work_Process_card2,.Work_Process_card3,.Work_Process_card4{
+    width: 312px;
+    height: 276px;
+    margin-left: 30px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 12px;
+    box-shadow: 32px 32px 124px rgba(43, 56, 76, 0.199);
+    margin-bottom: 24px;
+    
+
+}
+
+.grid_items .Work_Process_card1  .logo5 ,.Work_Process_card2  .logo5,
+.Work_Process_card3  .logo5,.Work_Process_card4  .logo5
+{
+    background-color: rgba(165, 61, 255, 1);
+    color: white;
+    width: 72px;
+    height: 72px;
+    margin-top: 32px;
+    margin-left: 32px;
+    padding-top: 4px;
+    font-size: 28px;
+    border-radius: 6px;
+    
+}
+.grid_items .Work_Process_card1 i ,.Work_Process_card2 i,
+.Work_Process_card3 i,.Work_Process_card4 i
+{
+    display: block;
+    text-align:center;
+    margin-top: 25%;
+}
+.grid_items .Work_Process_card1 p,h3    ,.Work_Process_card2 p,h3 ,
+ .Work_Process_card3 p,h3   ,.Work_Process_card4 p,h3
+{
+    margin-left: 32px;
+    padding-top: 6px;
+}
+.Work_Process_card2  .logo5 ,.Work_Process_card3  .logo5,
+.Work_Process_card4  .logo5 {
+    background-color: rgba(237, 216, 255, 0.5);
+    color: rgba(165, 61, 255, 1);
+}
+.Work_Process_card1,.Work_Process_card3{
+    margin-top: -26px;
+
+}
+/* ----------------------------------------------------- */
+
+.section4{
+    margin-top: 120px;
+    
+}
+.text3{
+    text-align: center;
+    height: 128px;
+    margin-bottom: 70px;
+    width: 577px;
+    margin-left: 305px;
+}
+
+
+.itemsFlex {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.itemsFlex .div1{
+    width: 31.33%;
+    height: 476px;
+    margin: 1%;
+    box-shadow: 0px 12px 64px rgba(28, 25, 25, 0.12);
+    border-radius: 8px;
+    overflow: hidden;
+
+}
+.itemsFlex .div1 img{
+    width: 100%;
+
+}
+
+.itemsFlex .text9 {
+  padding: 32px;
+}
+
+.itemsFlex .text9 h4{
+ margin-top: 6px;
+ margin-left:0;
+}
+.itemsFlex .text9 p{
+
+    margin-top: 12px;
+
+}
+.itemsFlex .text9 a{
+
+    display: inline-block;
+    text-decoration: none;
+    border:  1px solid rgba(165, 61, 255, 1) ;
+    border-radius: 4px;
+    padding: 12px 24px;
+    color: rgba(165, 61, 255, 1);
+    font-weight: 500;
+    margin-top: 5px;
+    transition: all .3s ease;
+    
+    
+}
+.itemsFlex .text9 a i{
+    margin-left: 18px;
+}
+.itemsFlex .text9 a:hover {
+
+    background-color:rgba(165, 61, 255, 1);
+    color: white;
+    
+}
+.itemsFlex .div1 img:hover {
+    
+    transform: scale(110%);
+
+
+}
+.end5{
+
+    text-decoration: none;
+    background-color: blueviolet;
+    padding: 10px 24px;
+    color: white;
+    margin-bottom: 100px;
+    margin-top: 62px;
+    margin-left: 44%;
+    border-radius: 6px;
+}
+/* --------------------------- */
+.section5{
+    max-width: 100%;
+    background-color: rgba(19, 34, 56, 1);
+    height: 400px;
+    text-align: center;
+    color: white;
+}
+.section5 h2{
+    max-width: 50%;
+    padding-top: 100px;
+    padding-left: 250px;
+    margin-left: 14%;
+    margin-top: 10px;
+}
+.section5 p{
+    width: 40%;
+    margin-left: 30%;
+    color: rgba(165, 172, 181, 1);
+}
+.section5 a{
+
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 24px;
+    background-color: blueviolet;
+    color: white;
+    margin-top: 10px;
+    border-radius: 4px;
+
+}
+
+.section5 a i{
+    margin-left: 15px;
+}
+/* -------------------------------------------------------- */
+
+.divM{
+    width: 100%;
+    margin-top: 100px;
+}
+.itemsFlex1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.itemsFlex1 .div2{
+    width:23%;
+    margin-top: 1.5%;
+    margin-left: 0.5%;
+    margin-right: 1.5%;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 12px 64px rgba(28, 25, 25, 0.157);
+    overflow: hidden;
+    transition: all .2s ease;
+
+
+}
+.itemsFlex1 .div2 img{
+    width: 100%;
+}
+.section6 .text4 {
+    text-align: center;
+}
+.section6 .text4 p{
+    width: 45%;
+    margin-left: 345px;
+    
+}
+.section6 .itemsFlex1 .text10{
+
+    padding: 5px 24px;
+}
+.section6 .itemsFlex1 .text10 p{
+    margin-top: 8px;
+
+}
+.section6 .itemsFlex1 .text10 small{
+    
+    display: block;
+    margin-top: 10px;
+}
+.itemsFlex1 .div2:hover {
+
+    transform: scale3d(.90,.90,.90)
+}
+/* -------------------------------------------------------------- */
+.divK{
+    width: 100%;
+    padding: 10px;
+    margin-top: 200px;
+    border-radius: 20px;
+    box-shadow: 0 20px 64px rgba(28, 25, 25, 0.229);
+}
+.section7{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.section7 .div12{
+
+    width: 100%;
+    margin-top: 150px;
+    padding-right: 143px;
+    padding-left: 50px;
+}
+.section7 .div12 h1{
+
+    margin: 0;
+    padding: 0;
+
+}
+.section7 .div12 p{
+
+    color: rgba(135, 144, 157, 1);
+}
+.section7 .div12 a{
+    display: block;
+    text-decoration: none;
+    padding: 12px 24px;
+    background-color: blueviolet;
+    color: white;
+    width: 126px;
+    text-align: center;
+    border-radius: 6px;
+
+}
+.section7 .div13{
+width: 150%;    
+
+}
+
+.section7 .div13 .div21{
+    
+      height: 176px;
+      background-color: rgba(255, 255, 255, 1);
+      box-shadow: 0 32px 96px rgba(28, 25, 25, 0.209);
+      border-radius: 8px;
+      margin-top: 24px;
+      padding: 30px 32px;
+}
+.section7 .div13 .div21 p{
+    margin-top: -10px;
+}
+.section7 .div13 .div21 h2{
+    margin-top: -5px;
+    
+}
+
+.section7 .hight1{
+    width: 5px;
+    height: 176px;
+    position: absolute;
+    border-radius: 6px 0 6px;
+    background-color: blueviolet;
+    margin-top: 25px;
+}
+/* --------------------------------------------------------- */
+
+footer{
+
+    margin-top: 100px;
+}
+footer .textM{
+
+    text-align: center;
+}
+footer .socilLogo {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+footer .socilLogo img{
+    width: 15%;
+    margin: .5%;
+}
+footer .textM p{
+    width: 45%;
+    margin-left: 345px;
+}
+footer .textM .p1{
+margin-top: 70px;
+}
+footer .textM small{
+    display: block;
+}
+footer .textM .h1p{
+    font-size: 18px;
+}
+/* --------------------- */
+.divend{
+    display: flex;
+    margin-top: 100px;
+    height: 720px;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 59px 124px rgba(0, 0, 0, 0.268);
+    border-radius: 15px;
+        
+
+
+}
+
+.divend .loaction {
+    width: 75%;
+    padding: 10px 110px;
+
+}
+
+
+.divend .loaction .divend1{
+
+    width: 85%;
+    padding: 25px  20px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+}
+#m1{
+
+    box-shadow: 0 12px 64px rgba(28, 25, 25, 0.23);
+
+}
+
+.divend1 .logolocation{
+    background-color: blueviolet;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+.divend1 .logolocation i{
+    margin-top: 16px;
+    margin-left: 18px;   
+    color: white; 
+}
+
+.divend1 .divtext11{
+
+    width: 141px;
+    height: 48px;
+    margin-left: 58px;
+    margin-top: -48px;
+
+
+} 
+.divend1 .divtext11 h5{
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+    font-weight: 700;
+}
+.divend .sochil_medui {
+
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+    align-items: end;
+    width: 288px;
+    margin-top: 100px;
+    
+}
+.divend .sochil_medui i{
+    display: flex;
+    width: 24%;
+    height: 50px;
+   justify-content: center;
+   align-items: center;
+   color: blueviolet;
+   font-size: 24px;
+}
+
+.divend .sochil_medui #kk{
+    color: white;
+    border-radius: 5px;
+    background-color: blueviolet;
+}
+
+.divend form p{
+
+    color: rgba(135, 144, 157, 1);
+    margin-bottom: 50px;
+    padding: 0 30px;
+    margin-left: -33px;
+    width: 100%;
+}
+.divend form input{
+    display: block;
+    width: 90%;
+    padding: 10px 0;
+    margin-bottom: 24px;
+    border: none;
+    outline: none;
+    color: blueviolet;
+    font-size: 18px;
+    border-bottom: 1px solid  rgba(230, 232, 235, 1);
+}
+.divend form div{
+    margin-bottom: 24px;
+}
+
+.divend form .d2 {
+    display: flex;
+    width: 90%;
+    
+}
+.divend form .d2 input{
+    display: inline-block;
+    margin-top: 22px;
+    margin-left: -58px;
+}
+.divend form .d2 .Budget{
+
+    width: 280px;
+    margin-right: 28px;
+}
+.divend form a{
+
+    display: block;
+    text-decoration: none;
+    background-color: rgba(165, 61, 255, 1);
+    padding: 10px 24px;
+    border-radius: 8px;
+    width: 141px;
+    color: white;
+    margin-top: 50px;
+}
+.divend form a i{
+
+    margin-left: 10px;
+}
+
+.end{
+    background-color: rgba(43, 56, 76, 1);
+    width: 100%;
+    height: 200px;
+}
+.end .contener  nav{
+padding-top: 80px;
+}
+
+.end .logo h2{
+    color :white;
+}
+.end nav .menu ul li a {
+    color: white;
+    font-weight: 200;
+    
+}
+.end nav .menu ul li{
+
+    margin-left: -30px;
+}
+
+.end nav .menu ul li .contact {
+    background-color: rgba(43, 56, 76, 1);
+}
+.end nav .menu ul li .contacttt{
+
+    font-weight: 400;
+}
